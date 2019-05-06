@@ -74,7 +74,7 @@ Select which columns of data to work with.  To start with, configure the module 
    
 1. Select the **Select Columns in Dataset** module.
 
-1. In the **Properties** pane to the right of the canvas, select **Launch column selector**.
+1. In the **Properties** pane to the right of the canvas, click **Edit Columns**.
 
     In the **Select columns** dialog, select **ALL COLUMNS** and include **all features**. The dialog should look like this:
 
