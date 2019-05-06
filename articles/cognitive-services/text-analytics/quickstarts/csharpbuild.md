@@ -60,6 +60,9 @@ namespace ConsoleApp1
             Task t= MainB(null);
             t.Wait();
         {
+        
+        static async Task MainB(string[] args) 
+        {
 
             // Create a client.
             ITextAnalyticsClient client = new TextAnalyticsClient(new ApiKeyServiceClientCredentials())
