@@ -1,30 +1,12 @@
----
-title: Create and explore experiments in Portal
-titleSuffix: Azure Machine Learning service
-description: Learn how to create and manage automated machine learning experiments in portal
-services: machine-learning
-ms.service: machine-learning
-ms.subservice: core
-ms.topic: conceptual
-ms.author: tsikiksr
-author: tsikiksr
-manager: cgronlun
-ms.reviewer: nibaccam
-ms.date: 05/02/2019
-
----
-
 # Create and explore automated machine learning experiments in the Azure portal (Preview)
 
- In this article, you learn how to create, run, and explore automated machine learning experiments in the Azure portal without a single line of code. Automated machine learning automates the process of selecting the best algorithm to use for your specific data, so you can generate a machine learning model quickly. [Learn more about automated machine learning](concept-automated-ml.md).
+In this article, you learn how to create, run, and explore automated machine learning experiments in the Azure portal without a single line of code. Automated machine learning automates the process of selecting the best algorithm to use for your specific data, so you can generate a machine learning model quickly.
 
- If you prefer a more code-based experience, you can also [configure your automated machine learning experiments in Python](how-to-configure-auto-train.md) with the [Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml/intro?view=azure-ml-py).
+If you prefer a more code-based experience, you can also configure your automated machine learning experiments in Python with the Azure Machine Learning SDK.
 
-## Prerequisites
+## Create a Machine Learning Service Workspace Resource in Azure
 
-* An Azure subscription. If you don’t have an Azure subscription, create a free account before you begin. Try the [free or paid version of Azure Machine Learning service](https://aka.ms/AMLFree) today.
-
-* An Azure Machine Learning service workspace. See [Create an Azure Machine Learning service workspace](https://docs.microsoft.com/azure/machine-learning/service/setup-create-workspace).
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) create a Machine Learning Workspace.
 
 ## Get started
 
