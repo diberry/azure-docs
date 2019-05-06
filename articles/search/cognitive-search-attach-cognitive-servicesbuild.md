@@ -11,14 +11,13 @@ If your pipeline consists of skills unrelated to Cognitive Services APIs, you sh
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource.
 #
 
-
 **Free (Limited Enrichments)** are restricted to 20 documents per day, per subscription.
 
 1. Open the **Import data** wizard.
 
    ![Import data command](media/search-get-started-portal/import-data-cmd2.png "Import data command")
 
-1. Choose a data source and continue to **Add cognitive search (optional)**. For a step-by-step walkthrough of this wizard, see [Import, index, and query using portal tools](search-get-started-portal.md).
+1. Choose a data source and continue to **Add cognitive search (optional)**. For a step-by-step walkthrough of this wizard, see Import, index, and query using portal tools.
 
 1. Expand **Attach Cognitive Services** and select **Free (Limited Enrichments)**.
 
