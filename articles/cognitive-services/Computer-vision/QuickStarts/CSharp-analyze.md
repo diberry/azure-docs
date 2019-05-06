@@ -223,14 +223,3 @@ A successful response is returned in JSON. The sample application parses and dis
     }
 }
 ```
-
-## Clean up resources
-
-When no longer needed, delete the Visual Studio solution. To do so, open File Explorer, navigate to the folder in which you created the Visual Studio solution, and delete the folder.
-
-## Next steps
-
-Explore a basic Windows application that uses Computer Vision to perform optical character recognition (OCR); create smart-cropped thumbnails; plus detect, categorize, tag, and describe visual features, including faces, in an image.
-
-> [!div class="nextstepaction"]
-> [Computer Vision API C# Tutorial](../Tutorials/CSharpTutorial.md)
