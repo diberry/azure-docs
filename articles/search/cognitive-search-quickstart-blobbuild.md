@@ -19,8 +19,7 @@ This quickstart runs on the Free service.
 > Execution of built-in skills is charged at the existing [Cognitive Services pay-as-you go price](https://azure.microsoft.com/pricing/details/cognitive-services/). Image extraction pricing is described on the [Azure Search pricing page](https://go.microsoft.com/fwlink/?linkid=2042400).
 
 
-## Create an Azure Search Resource on Azure
-On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource.
+## Create a Storage Account on Azure
 
 [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) provides the AI. This quickstart includes steps for adding these resources in-line, when specifying the pipeline. It's not necessary to set up accounts in advance.
 
@@ -53,7 +52,12 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 
 1. Select **Review + Create** to review your storage account settings and create the account.
 1. Select **Create**.
-, create a storage account, open the Blob services pages, and create a container.  Create the storage account in the same region as Azure Search.
+1. Open the Blob services pages, and create a container.  
+
+## Create an Azure Search Resource on Azure
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource. 
+
+Create the Azure Search resource in the same region as the storage acccount.
 
 1. In the container you created, click **Upload** to upload the sample files you downloaded in a previous step.
 
