@@ -49,7 +49,7 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 1. Open the Blob services pages, and click on **Blobs**.
 1. Click on the **+** icon to create a container.
 1. Click on the container you created to open it.
-1. In the container you created, click **Upload** to upload the sample files located here: c:\Users\Admin\Desktop\Azure Search sample data.
+1. In the container you created, click **Upload** to upload the sample files located here: C:\Users\Admin\Desktop\Azure Search sample data.
 
    ![Source files in Azure blob storage](./media/cognitive-search-quickstart-blob/sample-data.png)
 
