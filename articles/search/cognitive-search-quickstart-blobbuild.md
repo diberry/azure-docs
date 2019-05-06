@@ -15,15 +15,13 @@ This quickstart runs on the Free service.
 
 > [NOTE]
 > As you expand scope by increasing the frequency of processing, adding more documents, or adding more AI algorithms, you will need to attach a billable Cognitive Services resource. Charges accrue when calling APIs in Cognitive Services, and for image extraction as part of the document-cracking stage in Azure Search. There are no charges for text extraction from documents.
->
-> Execution of built-in skills is charged at the existing [Cognitive Services pay-as-you go price](https://azure.microsoft.com/pricing/details/cognitive-services/). Image extraction pricing is described on the [Azure Search pricing page](https://go.microsoft.com/fwlink/?linkid=2042400).
 
 
 ## Create a Storage Account on Azure
 
-[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) provides the AI. This quickstart includes steps for adding these resources in-line, when specifying the pipeline. It's not necessary to set up accounts in advance.
+Cognitive Services provides the AI. This quickstart includes steps for adding these resources in-line, when specifying the pipeline. It's not necessary to set up accounts in advance.
 
-Azure services are required to provide the inputs to the indexing pipeline. You can use any data source supported by Azure Search indexers except for Azure Table Storage, which is not supported for AI indexing. This quickstart uses [Azure Blob storage](https://azure.microsoft.com/services/storage/blobs/) as a container for source data files. 
+Azure services are required to provide the inputs to the indexing pipeline. You can use any data source supported by Azure Search indexers except for Azure Table Storage, which is not supported for AI indexing. This quickstart uses Azure Blob storage as a container for source data files. 
 
 ### Set up Azure Blob service and load sample data
 
