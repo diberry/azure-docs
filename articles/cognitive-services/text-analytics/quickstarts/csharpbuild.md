@@ -10,7 +10,8 @@ On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.CognitiveSer
 
 
 ## Install the NuGet SDK Package
-1. Create a new Console solution using `.netcoreapp2.0` and above in Visual Studio.
+1. Open Visual Studio
+1. Create a new Console solution using `.netcoreapp2.0`.
 1. Right click on the solution and click **Manage NuGet Packages for Solution**
 1. Select the **Browse** tab, and Search for **Microsoft.Azure.CognitiveServices.Language.TextAnalytics**
 
@@ -54,7 +55,10 @@ namespace ConsoleApp1
             }
         }
 
-        static async Task Main(string[] args)
+        static void Main()
+        {
+              Task t= MainB(null);
+            t.Wait();
         {
 
             // Create a client.
