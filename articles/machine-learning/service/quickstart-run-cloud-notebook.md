@@ -16,13 +16,12 @@ In this quickstart, you take the following actions:
 ## Create a Machine Learning Service Workspace Resource in Azure
 
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) create a Machine Learning Workspace.
-- An Azure Machine Learning workspace.  [Create your workspace](setup-create-workspace.md#portal) now if you don't have one.
 
 ## Create a cloud-based notebook server
 
  From your workspace, you create a cloud resource to get started using Jupyter notebooks. This resource gives you a cloud-based platform pre-configured with everything you need to run Azure Machine Learning service.
 
-1. Open your workspace in the [Azure portal](https://portal.azure.com/).  If you're not sure how to locate your workspace in the portal, see how to [find your workspace](how-to-manage-workspace.md#view).
+1. Open your workspace in the [Azure portal](https://portal.azure.com/).
 
 1. On your workspace page in the Azure portal, select **Notebook VMs** on the left.
 
