@@ -150,7 +150,7 @@ First,  remove the **normalized-losses** column completely.
 
     * From the drop-downs, select **Exclude** and **column names**, and then click inside the text box. Type **normalized-losses**.
 
-    * On the lower right, select the check mark (OK) button to close the column selector.
+    * On the lower right, select the (OK) button to close the column selector.
 
     ![Exclude a column](./media/ui-quickstart-run-experiment/exclude-column.png)
         
