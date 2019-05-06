@@ -28,7 +28,7 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 
 1. In the [Azure portal](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM), create a **Storage Account**
 1. Select the subscription in which to create the storage account.
-1. Under the **Resource group** field, select **Create new**. Enter a name for your new resource group, as shown in the following image.
+1. Under the **Resource group** field, select the existing resource. Enter a name for your new resource group, as shown in the following image.
 
     ![Screenshot showing how to create a resource group in the portal](https://github.com/adrimoscatelli/azure-docs/blob/master/includes/media/storage-create-account-portal-include/create-resource-group.png)
 
@@ -49,7 +49,7 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 1. Open the Blob services pages, and click on **Blobs**.
 1. Click on the **+** icon to create a container.
 1. Click on the container you created to open it.
-1. In the container you created, click **Upload** to upload the sample files located here: C:\Users\Admin\Desktop\Azure Search sample data.
+1. In the container you created, click **Upload** to upload the sample files located here: C:\Users\Admin\Desktop\Azure Search sample data
 
    ![Source files in Azure blob storage](./media/cognitive-search-quickstart-blob/sample-data.png)
 
