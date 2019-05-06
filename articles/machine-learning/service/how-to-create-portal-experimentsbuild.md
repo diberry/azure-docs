@@ -161,7 +161,3 @@ Training jobs can take a while for each pipeline to finish running.
 Drill down on any of the output models to see training run details, like performance metrics and distribution charts. [Learn more about charts](https://docs.microsoft.com/azure/machine-learning/service/how-to-track-experiments#understanding-automated-ml-charts).
 
 ![Iteration details](media/how-to-create-portal-experiments/iteration-details.png)
-
-## Next steps
-
-* [Learn more about automated machine learning](concept-automated-ml.md) and Azure Machine Learning.
