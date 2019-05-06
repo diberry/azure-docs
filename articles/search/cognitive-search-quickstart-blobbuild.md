@@ -30,11 +30,10 @@ Azure services are required to provide the inputs to the indexing pipeline. You 
 
 1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4) consisting of a small file set of different types. 
 
-1. Sign up for Azure Blob storage
 
 To create a general-purpose v2 storage account in the Azure portal, follow these steps:
 
-1. In the Azure portal, select **All services**. In the list of resources, type **Storage Accounts**. As you begin typing, the list filters based on your input. Select **Storage Accounts**.
+1. In the [Azure portal](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM), create a **Storage Account**
 1. Select the subscription in which to create the storage account.
 1. Under the **Resource group** field, select **Create new**. Enter a name for your new resource group, as shown in the following image.
 
