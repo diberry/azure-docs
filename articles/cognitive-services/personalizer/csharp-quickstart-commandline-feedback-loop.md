@@ -1,19 +1,3 @@
----
-title: Feedback loop - Personalizer
-titleSuffix: Azure Cognitive Services
-description: Personalize content in this C# quickstart with the Personalizer service.
-services: cognitive-services
-author: edjez
-manager: nitinme
-ms.service: cognitive-services
-ms.subservice: personalizer
-ms.topic: overview
-ms.date: 05/07/2019
-ms.author: edjez
-#Customer intent: 
-
----
-
 # Quickstart: Personalize content using C# 
 
 Display personalized content in this C# quickstart with the Personalizer service.
