@@ -13,7 +13,6 @@ In this quickstart you'll explore and prepare data:
 
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) create a Machine Learning Workspace.
 
-[!INCLUDE [aml-create-portal](../../../includes/aml-create-in-portal.md)]
 
 ## <a name="start"></a> Open the visual interface webpage
 
