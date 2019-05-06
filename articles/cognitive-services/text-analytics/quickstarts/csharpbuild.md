@@ -236,7 +236,6 @@ Document ID: 2
 
 ## Next steps
 
-> [!div class="nextstepaction"]
 > [Text Analytics With Power BI](../tutorials/tutorial-power-bi-key-phrases.md)
 
 ## See also
