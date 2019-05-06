@@ -1,17 +1,3 @@
----
-title: "Quickstart: Prepare and visualize data without writing code"
-titleSuffix: Azure Machine Learning service
-description: Create a machine learning experiment to prepare and visualize your data with a drag-and-drop user interface.
-services: machine-learning
-ms.service: machine-learning
-ms.subservice: core
-ms.topic: quickstart
-author: sdgilley
-ms.author: sgilley
-ms.date: 05/02/2019
-# Customer intent: As a beginner data scientist who does not want to write code, I want to visualize my data so that I can use it to create machine learning models.
----
-
 # Quickstart: Prepare and visualize data without writing code
 
 Prepare and visualize your data with a drag-and-drop user interface. The data you'll use includes entries for various individual automobiles, including information such as make, model, technical specifications, and price.  
@@ -23,15 +9,9 @@ In this quickstart you'll explore and prepare data:
 - Run the experiment
 - Visualize the resulting data
 
-If you're brand new to machine learning, the video series [Data Science for Beginners](https://docs.microsoft.com/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers) is a great introduction to machine learning.
+## Create a Machine Learning Service Workspace Resource in Azure
 
-## Prerequisites
-
-If you don’t have an Azure subscription, create a free account before you begin. Try the [free or paid version of Azure Machine Learning service](https://aka.ms/AMLFree) today.
-
-### Create a workspace
-
-If you have an Azure Machine Learning service workspace, skip to the [next section](#start). Otherwise, create one now.
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) create a Machine Learning Workspace.
 
 [!INCLUDE [aml-create-portal](../../../includes/aml-create-in-portal.md)]
 
@@ -213,20 +193,3 @@ Since you made changes to the modules in your experiment, the status has changed
     There are now 193 rows and 25 columns.
 
     When you click on **num-of-doors** you see it still has 2 unique values but now has 0 missing values.  
-
-## Clean up resources
-
-[!INCLUDE [aml-ui-cleanup](../../../includes/aml-ui-cleanup.md)]
-
-## Next steps
-
-In this quickstart, you learned how to:
-
-- Create your first experiment to add and preview data
-- Prepare the data by removing missing values
-- Visualize the resulting data
-
-Continue to the tutorial to use this data to predict the price of an automobile.
-
-> [!div class="nextstepaction"]
-> [Tutorial: Predict automobile price with the visual interface](ui-tutorial-automobile-price-train-score.md)
