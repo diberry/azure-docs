@@ -50,7 +50,7 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 1. Click on the **+** icon to create a container.
 1. Click on the container you created to open it.
 1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4) consisting of a small file set of different types. 
-1. In the container you created, click **Upload** to upload the sample files you downloaded in a previous step.
+1. In the container you created, click **Upload** to upload the sample files you downloaded in the previous step.
 
    ![Source files in Azure blob storage](./media/cognitive-search-quickstart-blob/sample-data.png)
 
@@ -171,22 +171,3 @@ Another important concept is that skills operate over input fields. In the porta
  Inputs to a skill are mapped to an output field in an index. Internally, the portal sets up [annotations](cognitive-search-concept-annotations-syntax.md) and defines a [skillset](cognitive-search-defining-skillset.md), establishing the order of operations and general flow. These steps are hidden in the portal, but when you start writing code, these concepts become important.
 
 Finally, you learned that viewing results is achieved by querying the index. In the end, what Azure Search provides is a searchable index, which you can query using either the [simple](https://docs.microsoft.com/rest/api/searchservice/simple-query-syntax-in-azure-search) or [fully extended query syntax](https://docs.microsoft.com/rest/api/searchservice/lucene-query-syntax-in-azure-search). An index containing enriched fields is like any other. If you want to incorporate standard or [custom analyzers](search-analyzers.md), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [synonyms](search-synonyms.md), [faceted filters](search-filters-facets.md), geo-search, or any other Azure Search feature, you can certainly do so.
-
-## Clean up resources
-
-If your exploration is concluded, the fastest way to clean up is by deleting the resource group containing the Azure Search service and Azure Blob service.  
-
-Assuming you put both services in the same group, delete the resource group now to permanently delete everything in it, including the services and any stored content you created for this exercise. In the portal, the resource group name is on the Overview page of each service.
-
-## Next steps
-
-Depending on how you provisioned Cognitive Services resource, you can experiment with indexing and enrichment by rerunning the wizard with different skills and source data fields. To repeat the steps, delete the index and indexer, then recreate the indexer with a new mix of selections.
-
-+ In **Overview** > **Indexes**, select the index you created, and then click **Delete**.
-
-+ In **Overview**, double-click the **Indexers** tile. Find the indexer you created and delete it.
-
-Alternatively, reuse the sample data and services you created, and learn how to perform the same tasks programmatically in the next tutorial. 
-
-> [!div class="nextstepaction"]
-> [Tutorial: Learn the cognitive search REST APIs](cognitive-search-tutorial-blob.md)
