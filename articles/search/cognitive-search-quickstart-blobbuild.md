@@ -6,7 +6,6 @@ Many Cognitive Services resources - such as OCR, language detection, entity reco
 
 In this quickstart, create your first enrichment pipeline in the [Azure portal](https://portal.azure.com) before writing a single line of code:
 
-> [!div class="checklist"]
 > * Begin with sample data in Azure Blob storage
 > * Configure the **Import data** wizard for cognitive indexing and enrichment 
 > * Run the wizard (an entity skill detects people, location, and organizations)
