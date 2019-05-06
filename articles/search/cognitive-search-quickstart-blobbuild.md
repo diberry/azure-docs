@@ -56,10 +56,6 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 ## Create an Azure Search Resource on Azure
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource. 
 
-Create the Azure Search resource in the same region as the storage acccount.
-
-
-
 ## Create the enrichment pipeline
 
 Return to the Azure Search service dashboard page and click **Import data** on the command bar to set up cognitive enrichment in four steps.
