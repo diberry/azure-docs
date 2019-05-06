@@ -1,23 +1,8 @@
----
-title: "Quickstart: Run a notebook in the cloud"
-titleSuffix: Azure Machine Learning service
-description: Get started with Azure Machine Learning service. Use a managed notebook server in the cloud to try out your workspace.  Your workspace is the foundational block in the cloud that you use to experiment, train, and deploy machine learning models.  
-services: machine-learning
-ms.service: machine-learning
-ms.subservice: core
-ms.topic: quickstart
-author: sdgilley
-ms.author: sgilley
-ms.date: 05/02/2019
-ms.custom: seodec18
-
----
-
 # Quickstart: Use a cloud-based notebook server to get started with Azure Machine Learning
 
-Create a cloud-based notebook server, then use it.  In this quickstart, you run Python code that logs values in the [Azure Machine Learning service workspace](concept-azure-machine-learning-architecture.md). The workspace is the foundational block in the cloud that you use to experiment, train, and deploy machine learning models with Machine Learning. 
+Create a cloud-based notebook server, then use it.  In this quickstart, you run Python code that logs values in the Azure Machine Learning service workspace. The workspace is the foundational block in the cloud that you use to experiment, train, and deploy machine learning models with Machine Learning. 
 
-This quickstart shows how to create a cloud resource in your Azure Machine Learning workspace, configured with the Python environment necessary to run Azure Machine Learning. To use your own environment instead, see [Quickstart: Use your own notebook server to get started with Azure Machine Learning](quickstart-run-local-notebook.md).  
+This quickstart shows how to create a cloud resource in your Azure Machine Learning workspace, configured with the Python environment necessary to run Azure Machine Learning.
  
 In this quickstart, you take the following actions:
 
@@ -27,10 +12,10 @@ In this quickstart, you take the following actions:
 * Run the notebook.
 * View the logged error values in your workspace.  This example shows how the workspace can help you keep track of information generated in a script. 
 
-If you don’t have an Azure subscription, create a free account before you begin. Try the [free or paid version of Azure Machine Learning service](https://aka.ms/AMLFree) today.
 
-## Prerequisites
+## Create a Machine Learning Service Workspace Resource in Azure
 
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) create a Machine Learning Workspace.
 - An Azure Machine Learning workspace.  [Create your workspace](setup-create-workspace.md#portal) now if you don't have one.
 
 ## Create a cloud-based notebook server
