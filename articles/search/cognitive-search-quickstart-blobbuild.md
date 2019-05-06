@@ -20,7 +20,7 @@ This quickstart runs on the Free service.
 
 
 ## Create an Azure Search Resource on Azure
-On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create a Computer Vision resource.
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource.
 
 [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) provides the AI. This quickstart includes steps for adding these resources in-line, when specifying the pipeline. It's not necessary to set up accounts in advance.
 
@@ -30,7 +30,31 @@ Azure services are required to provide the inputs to the indexing pipeline. You 
 
 1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4) consisting of a small file set of different types. 
 
-1. [Sign up for Azure Blob storage](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal), create a storage account, open the Blob services pages, and create a container.  Create the storage account in the same region as Azure Search.
+1. Sign up for Azure Blob storage
+
+To create a general-purpose v2 storage account in the Azure portal, follow these steps:
+
+1. In the Azure portal, select **All services**. In the list of resources, type **Storage Accounts**. As you begin typing, the list filters based on your input. Select **Storage Accounts**.
+1. Select the subscription in which to create the storage account.
+1. Under the **Resource group** field, select **Create new**. Enter a name for your new resource group, as shown in the following image.
+
+    ![Screenshot showing how to create a resource group in the portal](./media/storage-create-account-portal-include/create-resource-group.png)
+
+1. Next, enter a name for your storage account. The name you choose must be unique across Azure. The name also must be between 3 and 24 characters in length, and can include numbers and lowercase letters only.
+1. Select a location for your storage account, or use the default location.
+1. Leave these fields set to their default values:
+
+   |Field  |Value  |
+   |---------|---------|
+   |Deployment model     |Resource Manager         |
+   |Performance     |Standard         |
+   |Account kind     |StorageV2 (general-purpose v2)         |
+   |Replication     |Locally redundant storage (LRS)         |
+   |Access tier     |Hot         |
+
+1. Select **Review + Create** to review your storage account settings and create the account.
+1. Select **Create**.
+, create a storage account, open the Blob services pages, and create a container.  Create the storage account in the same region as Azure Search.
 
 1. In the container you created, click **Upload** to upload the sample files you downloaded in a previous step.
 
