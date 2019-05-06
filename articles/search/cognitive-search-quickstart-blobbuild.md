@@ -4,7 +4,7 @@ Azure Search integrates with [Cognitive Services](https://azure.microsoft.com/se
 
 Many Cognitive Services resources - such as OCR, language detection, entity recognition to name a few - can be attached to an indexing process. The AI algorithms of Cognitive Services are used to find patterns, features, and characteristics in source data, returning structures and textual content that can be used in full-text search solutions based on Azure Search.
 
-In this quickstart, create your first enrichment pipeline in the [Azure portal](https://portal.azure.com) before writing a single line of code:
+In this quickstart, create your first enrichment pipeline in the Azure portal before writing a single line of code:
 
 > * Begin with sample data in Azure Blob storage
 > * Configure the **Import data** wizard for cognitive indexing and enrichment 
