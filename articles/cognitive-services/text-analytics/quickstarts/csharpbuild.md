@@ -1,18 +1,3 @@
----
-title: 'Quickstart: Using C# to call the Text Analytics API'
-titleSuffix: Azure Cognitive Services
-description: Get information and code samples to help you quickly get started with using the Text Analytics API.
-services: cognitive-services
-author: ashmaka
-manager: nitinme
-
-ms.service: cognitive-services
-ms.subservice: text-analytics
-ms.topic: quickstart
-ms.date: 04/12/2019
-ms.author: assafi
----
-
 # Quickstart: Using C# to call the Text Analytics Cognitive Service
 <a name="HOLTop"></a>
 
