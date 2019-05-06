@@ -90,7 +90,7 @@ An experiment runs on a compute target, a compute resource that is attached to y
 
 1. Select **Run** at the bottom to run the experiment.
 
-     ![Run experiment](./media/aml-ui-create-training-compute/run-experiment.png)
+     ![Run experiment](https://github.com/adrimoscatelli/azure-docs/blob/master/includes/media/aml-ui-create-training-compute/run-experiment.png)
 
 1. When the **Setup Compute Targets** dialog appears, if your workspace already has a compute resource, you can select it now.  Otherwise, select **Create new**.
 
