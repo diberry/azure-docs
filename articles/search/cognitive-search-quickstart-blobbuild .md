@@ -2,28 +2,26 @@
 
 Azure Search integrates with [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/), adding content extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making unsearchable or unstructured content more searchable. 
 
-Many Cognitive Services resources - such as [OCR](cognitive-search-skill-ocr.md), [language detection](cognitive-search-skill-language-detection.md), [entity recognition](cognitive-search-skill-entity-recognition.md) to name a few - can be attached to an indexing process. The AI algorithms of Cognitive Services are used to find patterns, features, and characteristics in source data, returning structures and textual content that can be used in full-text search solutions based on Azure Search.
+Many Cognitive Services resources - such as OCR, language detection, entity recognition to name a few - can be attached to an indexing process. The AI algorithms of Cognitive Services are used to find patterns, features, and characteristics in source data, returning structures and textual content that can be used in full-text search solutions based on Azure Search.
 
 In this quickstart, create your first enrichment pipeline in the [Azure portal](https://portal.azure.com) before writing a single line of code:
 
 > [!div class="checklist"]
 > * Begin with sample data in Azure Blob storage
-> * Configure the [**Import data**](search-import-data-portal.md) wizard for cognitive indexing and enrichment 
+> * Configure the **Import data** wizard for cognitive indexing and enrichment 
 > * Run the wizard (an entity skill detects people, location, and organizations)
-> * Use [**Search explorer**](search-explorer.md) to query the enriched data
+> * Use **Search explorer** to query the enriched data
 
-This quickstart runs on the Free service, but the number of free transactions is limited to 20 documents per day. If you want to run this quickstart more than once daily, use a smaller file set so that you can fit in more runs.
+This quickstart runs on the Free service.
 
 > [!NOTE]
 > As you expand scope by increasing the frequency of processing, adding more documents, or adding more AI algorithms, you will need to [attach a billable Cognitive Services resource](cognitive-search-attach-cognitive-services.md). Charges accrue when calling APIs in Cognitive Services, and for image extraction as part of the document-cracking stage in Azure Search. There are no charges for text extraction from documents.
 >
 > Execution of built-in skills is charged at the existing [Cognitive Services pay-as-you go price](https://azure.microsoft.com/pricing/details/cognitive-services/). Image extraction pricing is described on the [Azure Search pricing page](https://go.microsoft.com/fwlink/?linkid=2042400).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
 
-## Prerequisites
-
-[Create an Azure Search service](search-create-service-portal.md) or [find an existing service](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Search%2FsearchServices) under your current subscription. You can use a free service for this quickstart.
+## Create an Azure Search Resource on Azure
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create a Computer Vision resource.
 
 [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) provides the AI. This quickstart includes steps for adding these resources in-line, when specifying the pipeline. It's not necessary to set up accounts in advance.
 
