@@ -6,7 +6,7 @@ This article shows you how to detect language, analyze sentiment, and extract ke
 Refer to the [API definitions](//go.microsoft.com/fwlink/?LinkID=759346) for technical documentation for the APIs.
 
 ## Create a Text Analytics Azure Resource
-On the [Azure Portal] (https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics) create a Text Analytics resource.
+On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics) create a Text Analytics resource.
 
 
 ## Install the NuGet SDK Package
