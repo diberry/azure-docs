@@ -101,7 +101,7 @@ An experiment runs on a compute target, a compute resource that is attached to y
 
 1. Select **Run**.
 
-    ![Setup compute target](./media/aml-ui-create-training-compute/set-compute.png)
+    ![Setup compute target](https://github.com/adrimoscatelli/azure-docs/blob/master/includes/media/aml-ui-create-training-compute/set-compute.png)
 
     The compute resource will now be created. View the status in the top-right corner of the experiment. 
 
