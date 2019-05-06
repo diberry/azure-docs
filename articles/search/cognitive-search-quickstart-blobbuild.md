@@ -24,10 +24,6 @@ Cognitive Services provides the AI. This quickstart includes steps for adding th
 Azure services are required to provide the inputs to the indexing pipeline. You can use any data source supported by Azure Search indexers except for Azure Table Storage, which is not supported for AI indexing. This quickstart uses Azure Blob storage as a container for source data files. 
 
 ### Set up Azure Blob service and load sample data
-
-1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4) consisting of a small file set of different types. 
-
-
 To create a general-purpose v2 storage account in the Azure portal, follow these steps:
 
 1. In the [Azure portal](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM), create a **Storage Account**
@@ -50,16 +46,22 @@ To create a general-purpose v2 storage account in the Azure portal, follow these
 
 1. Select **Review + Create** to review your storage account settings and create the account.
 1. Select **Create**.
-1. Open the Blob services pages, and create a container.  
+1. Open the Blob services pages, and click on **Blobs**.
+1. Click on the + icon to create a container.
+1. Click on the container you created to open it.
+1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4) consisting of a small file set of different types. 
+1. In the container you created, click **Upload** to upload the sample files you downloaded in a previous step.
+
+   ![Source files in Azure blob storage](./media/cognitive-search-quickstart-blob/sample-data.png)
+
+
 
 ## Create an Azure Search Resource on Azure
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource. 
 
 Create the Azure Search resource in the same region as the storage acccount.
 
-1. In the container you created, click **Upload** to upload the sample files you downloaded in a previous step.
 
-   ![Source files in Azure blob storage](./media/cognitive-search-quickstart-blob/sample-data.png)
 
 ## Create the enrichment pipeline
 
