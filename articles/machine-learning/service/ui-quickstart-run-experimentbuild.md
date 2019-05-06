@@ -144,7 +144,7 @@ First,  remove the **normalized-losses** column completely.
 
 1. Select the **Select Columns in Dataset** module.
 
-1. In the **Properties** pane to the right of the canvas, select **Launch column selector**.
+1. In the **Properties** pane to the right of the canvas, click **Edit Columns**.
 
     * Leave  **With rules** and **ALL COLUMNS** selected.
 
