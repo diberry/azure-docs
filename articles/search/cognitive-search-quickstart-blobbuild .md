@@ -1,15 +1,3 @@
----
-title: 'Quickstart: Build an AI-enriched index in Azure portal - Azure Search'
-description: Data extraction, natural language and image processing skills in an Azure Search indexing portal, using the Azure portal and sample data. 
-manager: cgronlun
-author: HeidiSteen
-services: search
-ms.service: search
-ms.topic: quickstart
-ms.date: 05/02/2019
-ms.author: heidist
-ms.custom: seodec2018
----
 # Quickstart: Create an AI indexing pipeline using cognitive skills in Azure Search
 
 Azure Search integrates with [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/), adding content extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making unsearchable or unstructured content more searchable. 
