@@ -10,6 +10,8 @@ If your pipeline consists of skills unrelated to Cognitive Services APIs, you sh
 
 On the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.Search) create an Azure Search resource.
 
+
+
 **Free (Limited Enrichments)** are restricted to 20 documents per day, per subscription.
 
 1. Open the **Import data** wizard.
