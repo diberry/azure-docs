@@ -15,8 +15,10 @@ Getting started with Personalization involves the following steps:
 
 ## Prerequisites
 
-* You need a subscription key and token issuing service url.
-* [Visual Studio 2015 or 2017](https://visualstudio.microsoft.com/downloads/).
+* You need a subscription key and token issuing service url. These are already created and available in the [Azure portal](https://portal.azure.com/#@CloudLabsAIoutlook.onmicrosoft.com/resource/subscriptions/4e09b5ee-747c-4bc6-b0d6-37550536c1a6/resourcegroups/azure-ai-64053/providers/Microsoft.CognitiveServices/accounts/personalizer/overview)
+* [Visual Studio 2015 or 2017](https://visualstudio.microsoft.com/downloads/). 
+    * The resource regions is `westus2`.
+    * The resource key is on the Keys page.
 * The Microsoft.Azure.CognitiveServices.Personalization SDK NuGet package. Installation instructions are provided below.
 
 ## Creating a new console app and referencing the Personalizer SDK 
