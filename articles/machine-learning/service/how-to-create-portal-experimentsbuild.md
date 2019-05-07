@@ -4,13 +4,12 @@ In this article, you learn how to create, run, and explore automated machine lea
 
 If you prefer a more code-based experience, you can also configure your automated machine learning experiments in Python with the Azure Machine Learning SDK.
 
-## Create a Machine Learning Service Workspace Resource in Azure
-Click on this link to the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices) to create a Machine Learning Workspace. Enter Workspace name, select resource group, and set Location to West US 2, then click Create. Wait for deployment to complete, clicking on the Bell icon at the top of the page to launch deployed workspace.
-
+## Use an existing Machine Learning Service Workspace Resource in Azure
+In this quickstart, use a Machine Learning Service Workspace resource created for you, found in the [Azure Portal](https://ms.portal.azure.com/#create/Microsoft.MachineLearningServices). 
 
 ## Get started
 
-Navigate to the left pane of your workspace. Select Automated Machine Learning under the Authoring (Preview) section.
+Navigate to the left pane of your workspace. Select **Automated Machine Learning** under the **Authoring (Preview)** section.
 
 ![Azure portal navigation pane](media/how-to-create-portal-experiments/nav-pane.png)
 
@@ -28,11 +27,11 @@ Select the Create Experiment button to populate the following form.
 
 ![Create experiment form](media/how-to-create-portal-experiments/create-exp-name-compute.png)
 
-1. Enter your experiment name.
+1. Enter your experiment name, such as `Iris Experiment`.
 
 1. Select the compute resource named `aml-compute`, for the data profiling and training job. A list of your existing computes is available in the dropdown. To create a new compute, follow the instructions in step 3.
 
-1. Select a data file, `irisdata.csv`, upload the file from your local computer desktop to the container.
+1. Select a data file, `irisdata.csv`, upload the file from your local computer's desktop to the container.
 
     ![Select data file for experiment](media/how-to-create-portal-experiments/select-file.png)
 
