@@ -30,28 +30,9 @@ Select the Create Experiment button to populate the following form.
 
 1. Enter your experiment name.
 
-1. Select a compute for the data profiling and training job. A list of your existing computes is available in the dropdown. To create a new compute, follow the instructions in step 3.
+1. Select the compute resource named `aml-compute`, for the data profiling and training job. A list of your existing computes is available in the dropdown. To create a new compute, follow the instructions in step 3.
 
-1. Select the Create a new compute button to open the below pane, and configure your compute context for this experiment.
-
-    ![Create new compute for experiment](media/how-to-create-portal-experiments/create-new-compute.png)
-
-    Field|Description
-    ---|---
-    Compute name| Enter a unique name that identifies your compute context.
-    Virtual machine size| Select the virtual machine size for your compute.
-    Additional settings| *Min node*: Enter the minimum number of nodes for your compute. The minimum number of nodes for AML compute is 0. To enable data profiling, you must have 1 or more nodes. <br> *Max node*: Enter the maximum number of nodes for your compute. The default is 6 nodes for an AML Compute.
-
-      To start the creation of your new compute, select **Create**. This can take a few moments.
-
-      >[!NOTE]
-      > Your compute name will indicate if the compute you select/create is *profiling enabled*. (See 7b for more details on data profiling).
-
-1. Select a storage account for your data. Public preview only supports local file uploads and Azure Blob Storage accounts.
-
-1. Select a storage container.
-
-1. Select a data file from your storage container, or upload a file from your local computer to the container.
+1. Select a data file, `irisdata.csv`, upload the file from your local computer desktop to the container.
 
     ![Select data file for experiment](media/how-to-create-portal-experiments/select-file.png)
 
@@ -68,33 +49,13 @@ Select the Create Experiment button to populate the following form.
         >[!NOTE]
         > The following error message will appear if your compute context is **not** profiling enabled: *Data profiling is only available for compute targets that are already running*.
 
-1. Select the training job type: classification, regression, or forecasting.
+1. Select the training job type of classification.
 
-1. Select target column. The column which you would like to do the predictions on.
+1. Select target column of `class`, which is the column which you would like to do the predictions on.
 
-1. For forecasting:
-    1. Select time column: This column contains the time data to be used.
-    1. Select forecast horizon: Indicate how many time units (minutes/hours/days/weeks/months/years) will the model be able to predict to the future. The further the model is required to predict into the future, the less accurate it will become. [Learn more about forecasting and forecast horizon](https://docs.microsoft.com/azure/machine-learning/service/how-to-auto-train-forecast#configure-experiment).
 
-1. (Optional) Advanced settings: additional settings you can use to better control the training job.
 
-    Advanced settings|Description
-    ------|------
-    Primary metric| Main metric used for scoring your model. [Learn more about model metrics](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-auto-train#explore-model-metrics).
-    Exit criteria| When any of these criteria are met, the training job ends before full completion. <br> *Training job time (minutes)*: How long to allow the training job to run.  <br> *Max number of iterations*: Maximum number of pipelines (iterations) to test in the training job. The job will not run more than the specified number of iterations. <br> *Metric score threshold*:  Minimum metric score for all pipelines. This ensures that if you have a defined target metric you want to reach, you do not spend more time on the training job than necessary.
-    Preprocessing| Select to enable or disable the preprocessing done by automated machine learning. Preprocessing includes automatic data cleansing, preparing, and transformation to generate synthetic features. [Learn more about preprocessing](#preprocess).
-    Validation| Select one of the cross validation options to use in the training job. [Learn more about cross validation](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-auto-train#cross-validation-split-options).
-    Concurrency| Select the multi-core limits you would like to use when using multi-core compute.
-    Blocked algorithm| Select algorithms you want to exclude from the training job.
-
-   ![Advanced settings form](media/how-to-create-portal-experiments/advanced-settings.png)
-
-> [!NOTE]
-> For more information on fields, click the information tool tip.
-
-<a name="profile"></a>
-
-### Data profiling
+### (Optional) Data profiling
 
 You can get a vast variety of summary statistics across your data set to verify whether your data set is ML-ready. For non-numeric columns, they include only basic statistics like min, max, and error count. For numeric columns, you can also review their statistical moments and estimated quantiles. Specifically, our data profile includes:
 
@@ -128,7 +89,7 @@ You can get a vast variety of summary statistics across your data set to verify 
 
 <a name="preprocess"></a>
 
-### Advanced preprocessing
+### (Optional) Advanced preprocessing
 
 When configuring your experiments, you can enable the advanced setting `Preprocess`. Doing so means that the following data preprocessing and featurization steps are performed automatically.
 
